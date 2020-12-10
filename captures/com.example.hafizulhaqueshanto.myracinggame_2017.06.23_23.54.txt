@@ -1,0 +1,64 @@
+TASK com.example.hafizulhaqueshanto.myracinggame id=635
+  ACTIVITY com.example.hafizulhaqueshanto.myracinggame/.InstructionActivity 28167f2c pid=5543
+    Local FragmentActivity 34edcb0d State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@263313ff
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@263313ff
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{162b9ac2 V.E..... ... 0,0-720,1280}
+        android.widget.LinearLayout{2d9ca10e V.E..... ... 0,0-720,1184}
+          android.view.ViewStub{397072f G.E..... ... 0,0-0,0 #102037d}
+          android.widget.FrameLayout{8d8913c V.E..... ... 0,0-720,1184}
+            android.support.v7.widget.FitWindowsLinearLayout{c3b8528 V.E..... ... 0,0-720,1184 #7f0c0040 app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{3cda1241 G.E..... ... 0,0-0,0 #7f0c0041 app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{76aad27 V.E..... ... 0,0-720,1184 #1020002 android:id/content}
+                android.widget.RelativeLayout{2b74917d V.E..... ... 0,0-720,1184 #7f0c0077 app:id/activity_instruction}
+                  android.support.v7.widget.AppCompatImageView{8a43872 V.ED.... ... 8,71-712,337 #7f0c0078 app:id/activity_instruction_header}
+                  android.widget.LinearLayout{54fd140 V.E..... ... 8,345-712,494 #7f0c0079 app:id/instruction_zero}
+                    android.support.v7.widget.AppCompatImageView{2c3dc879 V.ED.... ... 0,0-96,80}
+                    android.support.v7.widget.AppCompatTextView{325e1a1f V.ED.... ... 96,0-704,133}
+                  android.widget.LinearLayout{1fde63ca V.E..... ... 8,494-712,601 #7f0c007a app:id/instruction_one}
+                    android.support.v7.widget.AppCompatImageView{c54393b V.ED.... ... 0,0-96,80}
+                    android.support.v7.widget.AppCompatTextView{27ee8858 V.ED.... ... 96,0-704,91}
+                  android.widget.LinearLayout{3a2b0db1 V.E..... ... 8,601-712,708 #7f0c007b app:id/instruction_two}
+                    android.support.v7.widget.AppCompatImageView{2a66f296 V.ED.... ... 0,0-96,80}
+                    android.support.v7.widget.AppCompatTextView{21c32e17 V.ED.... ... 96,0-704,91}
+                  android.widget.LinearLayout{14efd204 V.E..... ... 8,708-712,857 #7f0c007c app:id/instruction_three}
+                    android.support.v7.widget.AppCompatImageView{2f31d3ed V.ED.... ... 0,0-96,80}
+                    android.support.v7.widget.AppCompatTextView{1d17a222 V.ED.... ... 96,0-704,133}
+                  android.widget.LinearLayout{1ec294b3 V.E..... ... 8,857-712,1006 #7f0c007d app:id/instruction_four}
+                    android.support.v7.widget.AppCompatImageView{179a0a70 V.ED.... ... 0,0-96,80}
+                    android.support.v7.widget.AppCompatTextView{3e64c1e9 V.ED.... ... 96,0-704,133}
+                  android.widget.LinearLayout{2731be6e V.E..... ... 8,1006-712,1113 #7f0c007e app:id/instruction_five}
+                    android.support.v7.widget.AppCompatImageView{f47c90f V.ED.... ... 0,0-96,80}
+                    android.support.v7.widget.AppCompatTextView{316d5d9c V.ED.... ... 96,0-704,91}
+        android.view.View{28bc925d V.ED.... ... 0,1184-720,1280 #1020030 android:id/navigationBarBackground}
+
+  ACTIVITY com.example.hafizulhaqueshanto.myracinggame/.StartUpActivity 15f00bb9 pid=5543
+    Local FragmentActivity 11700e08 State:
+      mCreated=truemResumed=false mStopped=true mReallyStopped=true
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@a1165cc
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@a1165cc
+      mCurState=2 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{1452a7c6 I.E..... ... 0,0-720,1280}
+        android.widget.LinearLayout{33c17a52 V.E..... ... 0,0-720,1184}
+          android.view.ViewStub{2a124123 G.E..... ... 0,0-0,0 #102037d}
+          android.widget.FrameLayout{3db09620 V.E..... ... 0,0-720,1184}
+            android.support.v7.widget.FitWindowsLinearLayout{e58f44c V.E..... ... 0,0-720,1184 #7f0c0040 app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{35175c95 G.E..... ... 0,0-0,0 #7f0c0041 app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{286cb19b V.E..... ... 0,0-720,1184 #1020002 android:id/content}
+                android.widget.RelativeLayout{255e2d11 V.E..... ... 0,0-720,1184 #7f0c007f app:id/activity_start_up}
+                  android.support.v7.widget.AppCompatTextView{355acc77 V.ED.... ... 288,32-688,92 #7f0c0080 app:id/activity_start_up_coin_text}
+                  android.support.v7.widget.AppCompatTextView{24791c02 V.ED.... ... 32,192-688,318 #7f0c0081 app:id/activity_start_up_game_label}
+                  android.widget.LinearLayout{19a5b913 V.E..... ... 32,716-688,1152}
+                    android.support.v7.widget.AppCompatButton{21a5c750 VFED..C. ... 0,0-656,96 #7f0c0082 app:id/activity_start_up_new_game}
+                    android.support.v7.widget.AppCompatButton{39bf0d03 VFED..C. ... 0,112-656,208 #7f0c0083 app:id/start_up_game_type_button}
+                    android.support.v7.widget.AppCompatButton{133f9d0a VFED..C. ... 0,220-656,316 #7f0c0084 app:id/start_up_high_score_button}
+                    android.support.v7.widget.AppCompatButton{fe7b22d VFED..C. ... 0,328-656,424 #7f0c0085 app:id/start_up_game_instruction}
+        android.view.View{106702c8 V.ED.... ... 0,1184-720,1280 #1020030 android:id/navigationBarBackground}

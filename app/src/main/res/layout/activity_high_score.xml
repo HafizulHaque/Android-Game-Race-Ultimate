@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_high_score"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundDarkWhite"
+    android:padding="8dp"
+
+    tools:context="com.example.hafizulhaqueshanto.myracinggame.HighScoreActivity">
+
+    <View
+        android:layout_width="16dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/dummy_view"
+        android:layout_marginLeft="32dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/high_score_header"
+        android:id="@+id/high_score_header"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/high_score_header"
+        android:layout_toLeftOf="@id/dummy_view">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1."
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="28sp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2."
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="28sp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3."
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="28sp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4."
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="28sp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5."
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="28sp"
+            android:layout_marginBottom="16dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/high_score_header"
+        android:layout_alignLeft="@id/dummy_view">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/first_score"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="28sp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/second_score"
+            android:textColor="@color/colorPrimary"
+            android:textSize="28sp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/third_score"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="28sp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fourth_score"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="28sp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fifth_score"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="28sp"
+            android:layout_marginBottom="16dp"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game_type"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@color/backgroundDarkWhite"
+    tools:context="com.example.hafizulhaqueshanto.myracinggame.GameTypeActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/activity_game_settings_title"
+        android:src="@drawable/game_mode_header"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/upgrade_vehicle_title"
+        android:layout_below="@+id/activity_game_settings_title"
+        android:layout_alignParentLeft="true"
+        android:text="Upgrade Vehicle:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="2dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/speed_layout"
+        android:background="#55000000"
+        android:layout_below="@id/upgrade_vehicle_title"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Speed"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/speed_text"
+            android:layout_centerInParent="true"
+            android:text="50%"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/speed_upgrade_button"
+            android:src="@drawable/button"
+            android:background="#00000000"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/accleraionLayout"
+        android:background="#55000000"
+        android:layout_below="@id/speed_layout"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Accleration"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/accleration_text"
+            android:layout_centerInParent="true"
+            android:text="50%"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/accleration_upgrade_button"
+            android:src="@drawable/button"
+            android:background="#00000000"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/break_layout"
+        android:background="#55000000"
+        android:layout_below="@id/accleraionLayout"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Break"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/break_text"
+            android:layout_centerInParent="true"
+            android:text="50%"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/break_upgrade_button"
+            android:src="@drawable/button"
+            android:background="#00000000"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+
+    /* other things  */
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/street_layout"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@id/break_layout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Street Type:"
+            android:id="@+id/street_layout_header"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="2dp"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="#55000000"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:id="@+id/activity_game_type_street_type_radio_group"
+            android:layout_below="@id/street_layout_header">
+
+            <RadioButton
+                android:text="One Way"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/one_Way_type"
+                android:layout_weight="1"
+                android:checked="true" />
+
+            <RadioButton
+                android:text="Two Way"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/two_way_type" />
+        </RadioGroup>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/time_layout"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@id/street_layout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/time_layout_header"
+            android:text="Time Mode:"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="2dp"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/activity_game_type_game_mode_radio_group"
+            android:gravity="center_vertical"
+            android:layout_below="@id/time_layout_header"
+            android:orientation="horizontal"
+            android:background="#55000000"
+            android:paddingRight="4dp"
+            android:paddingLeft="4dp">
+
+
+
+            <RadioButton
+                android:text="Endless"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/endless"
+                android:layout_weight="1"
+                android:checked="true" />
+
+            <RadioButton
+                android:text="Limited Time"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/limited_time" />
+        </RadioGroup>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/env_layout"
+        android:layout_below="@id/time_layout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/env_layout_header"
+            android:text="Pref. Effect:"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="2dp"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/activity_game_type_env_mode_radio_group"
+            android:gravity="center_vertical"
+            android:layout_below="@id/env_layout_header"
+            android:orientation="horizontal"
+            android:background="#55000000"
+            android:paddingRight="4dp"
+            android:paddingLeft="4dp">
+
+
+
+            <RadioButton
+                android:text="Day Mode"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/day_mode"
+                android:layout_weight="1"
+                android:checked="true" />
+
+            <RadioButton
+                android:text="Night Mode"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/night_mode" />
+        </RadioGroup>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
